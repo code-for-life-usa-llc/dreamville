@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="DreamvilleD.jpg.png">
+        <title>Hockey</title> 
+   </head>
+   <body>
+    <link rel="stylesheet" href="Hockey.css">
+    <ul style="align-items: flex-start;">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="soccer.html">Soccer</a></li>
+        <li><a href="Hockey.html">Hockey</a></li>
+        <li><a href="baseball.html">Baseball</a></li>
+        <li style="float:right"><a class="active" href="aboutus.html">About us</a></li>
+      </ul>
+      
+
+    <div id="top">
+    <h1>Hockey</h1>
+    <h2>Top Ten hockey players</h2>
+    <ol>
+        <li>Auston Matthews, C, Toronto Maple Leafs.</li><br>
+        <li>Auston Matthews, C, Toronto Maple Leafs.</li><br>
+        <li>Nathan MacKinnon, C, Colorado Avalanche.</li><br>
+        <li>Aleksander Barkov, C, Florida Panthers.</li><br>
+        <li>Connor McDavid, C, Edmonton Oilers.</li><br>
+        <li> Andrei Vasilevskiy, G, Tampa Bay Lightning.</li><br>
+        <li>Jonathan Huberdeau, LW, Florida Panthers.</li><br>
+        <li>Nikita Kucherov, RW, Tampa Bay Lightning.</li><br>
+        <li>Roman Josi, D, Nashville Predators.</li><br>
+        <li> Sebastian Aho, C, Carolina Hurricanes.</li><br>
+    </ol>
+    </div>
+    <h1>About Hockey</h1>
+    <p>Ice hockey (or simply hockey) is a team sport played on ice skates, usually on an ice skating rink with lines and markings specific to the sport. It belongs to a family of sports called hockey. In ice hockey, two opposing teams use ice hockey sticks to control, advance and shoot a closed, vulcanized, rubber disc called a "puck" into the other team's goal. Each goal is worth one point. The team which scores the most goals is declared the winner. In a formal game, each team has six skaters on the ice at a time, barring any penalties, one of whom is the goaltender. Ice hockey is a full contact sport.</p>
+    <p>Ice hockey is one of the sports featured in the Winter Olympics while its premiere international amateur competition, the IIHF World Championships, are governed by the International Ice Hockey Federation (IIHF) for both men's and women's competitions. Ice hockey is also played as a professional sport.</p>    
+    <p>The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day. Amateur ice hockey leagues began in the 1880s, and professional ice hockey originated around 1900. The Stanley Cup, emblematic of ice hockey club supremacy, was initially commissioned in 1892 as the "Dominion Hockey Challenge Cup" and was first awarded in 1893 to recognize the Canadian amateur champion and later became the championship trophy of the National Hockey League (NHL). In the early 1900s, the Canadian rules were adopted by the Ligue Internationale de Hockey Sur Glace, in Paris, France, the precursor of the International Ice Hockey Federation. The sport was played for the first time at the Olympics during the 1920 Summer Olympics.</p>
+    <div id="rec">
+    <h1>Top 10 NHL records</h1>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Team(S)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Wayne Gretzky</td>
+            <td>EDM, LAK, STL, NYR</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Gordie Howe</td>
+            <td>DET, HFD</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Alex Ovechkin</td>
+            <td>WSH</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Jaromir Jagr</td>
+            <td>PIT, WSH, NYR, PHI, DAL, BOS, NJD, FLA, CGY</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Brett Hull</td>
+            <td>CGY, STL, DAL, DET, PHX</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Marcel Dionne</td>
+            <td>DET, LAK, NYR</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Phil Esposito</td>
+            <td>CHI, BOS, NYR</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Mike Gartner</td>
+            <td>WSH, MNS, NYR, TOR, PHX</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Mark Messier</td>
+            <td>EDM, NYR, VAN</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Steve Yzerman</td>
+            <td>DET</td>
+        </tr>
+    </table>
+    </div>
+
+<button type="button" onclick="myFunction()" id="button">Facts About Ice Hockey</button>
+
+<p id="demo">The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day.</p>
+
+<script>
+        const button = document.getElementById("demo")
+
+        const facts = ["The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day.", "There was no exact date when was hockey created.", "Stanley Cup (1893) came first before the National Hockey League (1917).", "There were 2 years in which Stanley Cup was not awarded: Spanish Flu pandemic in 1919 and NHL lockout in 2005.", ]
+function myFunction() { 
+    const index = Math.floor(Math.random() * facts.length)
+    button.innerHTML= facts[index]
+}
+</script>
+<div class="mask3">
+    <svg width="200" height="200">
+        <mask id="svgmask3">
+          <circle fill="#ffffff" cx="75" cy="175" r="175"></circle>
+          </mask>
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="player.png" mask="url(#svgmask3)"></image>
+      </svg>
+       </div>
+<p>Wayne Gretzky is a Canadian-born hockey player and NHL Hall of Famer. He started skating at age 2 and by the age of 6 was regularly playing with older boys. He played his first full NHL season in 1979-80 for the Edmonton Oilers.</p>
+   </body>
+</html>

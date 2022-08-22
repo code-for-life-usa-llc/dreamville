@@ -1,0 +1,49 @@
+h1{
+    margin-bottom: 100px;
+    background-color: greenyellow;
+}
+#topimage{
+    margin-bottom: 100px;
+}
+body{
+    background-image: url("R.jpg");
+}
+h1 {
+    color: rgb(7, 128, 53);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  img {
+    border: 10px solid rgb(4, 159, 61);
+    padding: 15px;
+    border-image: url('border.png') 30 round;
+    width: 500px;
+    height: 500px;
+  }
+  img {
+    border-radius: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

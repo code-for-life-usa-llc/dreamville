@@ -1,0 +1,31 @@
+body{
+   background-image: url(wp.png); 
+   background-size: cover;
+}
+div{
+    background-color: rgba(87, 255, 255, 0.507);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;6r
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}

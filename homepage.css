@@ -1,0 +1,54 @@
+#title{
+    margin-bottom: -20px;
+ }
+ #dreamville{
+ margin:auto;
+ display:block;
+ }
+ #footer{
+    text-align: center;
+    background-color: yellowgreen;
+ }
+ body{
+    background-image: url("sportsballwall.jpg");
+    background-size:cover;
+ }
+ #carouselExampleCaptions{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+   position: relative;
+ }
+ 
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  h1{
+    color: blue;
+  }
+  p{
+    color: blue;
+  }
